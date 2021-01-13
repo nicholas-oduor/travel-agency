@@ -20,4 +20,12 @@ h4 {
     text-align: center;
     text-transform: uppercase;
 }
-
+/* services section */
+.third {
+    background-image: url('./images/');
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    color: rgb(250, 40, 215);
+    padding: 100px;
+}
