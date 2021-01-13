@@ -4,35 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+
+    <link rel="stylesheet" href="./contact.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <title>Nibra Travel Agency</title>
-    <div class="container-fluid  contactme">
-        <div class="container mt-5 pt-5">
-            <h3 class="text-center">CONTACT US</h3>
-            <div class="mycontact">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" id="name" placeholder="Name.." class="form-control">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" id="email" placeholder="email.." class="form-control">
-                        </div>
-                    </div>
-                    &nbsp;
-                    <textarea placeholder="Your message here..." rows="2" id="textarea" class="form-control"></textarea>
-                    <div class="text-center">
-                        <input type="submit" value="Submit" class="mt-2 btn btn-primary">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+
+    <div class="container-fluid contactme">
+
+        <h3 class="text-center">CONTACT US</h3>
+        <br>
+        <br>
+        <h3 class="text-center">we'd <img src="./image/download.png" alt="" height="23 px" width="23px"> to help </h3>
+        <div class="mycontact">
+            <div class="row">
+
+                <div class="col-md-7">
+                    <form>
+                        <p> Enter your name</p>
+                        <input type="text" id="name" placeholder="Name.." class="form-control">
+
+
+                        <p> Enter your Email</p>
+                        <input type="text" id="email" placeholder="email.." class="form-control">
+
+                        <p>Enter your phone number</p>
+                        <input type="text" id="phone number" placeholder="phone number.." class="form-control">
+
+
+                        <p>Enter your location</p>
+                        <input type="text" id="location" placeholder="location.." class="form-control">
+
+
+                        &nbsp;
+                        <p>Leave your massege here</p>
+                        <textarea placeholder="Your message here..." rows="4" id="textarea"
+                            class="form-control"></textarea>
+                        <div class="text-center p-5">
+                            <button id="send" type="submit" class="btn btn-success ">send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5"><br> <br><br><br>
+                    <br> <br><br><br>
+                    <br> <br><br><br>
+                    <div class="card">
+                        <a href="#"><i class="fas fa-phone"></i></a>
+                        <p>0013422467</p>
+                        <br>
+                        <br>
+
+                        <a href="#"><i class="fas fa-envelope-square"></i></a>
+                        <p>nibramembers@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./contact.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -42,6 +78,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
