@@ -29,3 +29,31 @@ h4 {
     color: rgb(250, 40, 215);
     padding: 100px;
 }
+/* footer section */
+.footer {
+    width: 55%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+/* contact form  */
+.contact {
+    background-image: url('./images/jt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.contact>h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#form1,
+#form2,
+#form3 {
+    background-color: transparent;
+}
+
