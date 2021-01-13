@@ -1,0 +1,23 @@
+.first {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: rgb(236, 47, 136);
+    background-image: url('./images/jt.jpg');
+    height: 720px;
+    text-align: center;
+    padding: 180px;
+
+}
+/* About section */
+.second {
+    text-align: center;
+}
+
+h2,
+h4 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
