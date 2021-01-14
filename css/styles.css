@@ -1,0 +1,38 @@
+ul{
+  position: relative;
+  margin-left: 435px;
+}
+li{
+  padding-left: 30px;
+}
+.container-fluid{
+  background-color: #f14799;
+}
+li a:hover{
+  background-color: grey;
+}
+h6 {
+  color: #F14799;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  text-align: center;
+  font-size: large;
+}
+.footer ul li{
+  list-style-type: none;
+  display: inline;
+  text-align: center; 
+}
+.footer{
+  background-color: #F14799;
+}
+.carousel-inner p{
+  color: #F14799;
+  background-color: grey;
+}
+h5{
+  background-color: grey;
+}
