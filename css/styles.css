@@ -18,12 +18,13 @@
     text-align: center;
 }
 .container{
-    background-image: url(..images/b)
+    background-image: url(../images/bg.png);
 }
 .services{
     text-align: center;
-    color:rgb(247, 52, 188);
+    color: rgb(247, 52, 188);
+    padding-top: 10px;
 }
 #booking{
-    
+    padding-top: 30px;
 }
