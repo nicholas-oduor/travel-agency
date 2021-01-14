@@ -54,10 +54,11 @@ h1 {
 
 /* About section */
 .second {
+    padding: 20px;
     text-align: center;
     color: white;
     float: center;
-    background-color: orange;
+    background-color:orange;
 
 }
 
@@ -77,7 +78,7 @@ h4 {
 /* services section */
 .third {
     /* background-image: url('./images/pp1.jpg'); */
-    background-color: white;
+    background-color:white;
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -87,12 +88,13 @@ h4 {
 
 /* footer section */
 .footer {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 47px auto;
     text-align: center;
-    padding: 100px;
+    padding: 36px;
     color: blue;
     position: absolute;
+    background-color:#ff1479;
 }
 
 
@@ -140,7 +142,5 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        /* background-color:cyan; */
-    }
+
 }
