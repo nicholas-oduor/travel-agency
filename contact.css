@@ -1,11 +1,10 @@
 body{
-    background-image: url(./image/spitfire-.jp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
-    background-color: grey;
+    background-color:#f14799;
 }
 .row{
     color:black;
@@ -18,3 +17,16 @@ body{
     line-height: 1.875em;
     
 }
+.footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+    float: left;
+padding-left: 120px;
+  }
+  .footer{
+    background-color: #F14799;
+    text-align: center;
+    float: left;
+  }
