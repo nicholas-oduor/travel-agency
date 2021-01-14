@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul{
   position: relative;
   margin-left: 435px;
@@ -36,3 +37,35 @@ p {
 h5{
   background-color: grey;
 }
+=======
+/* Navbar container */
+.navbar {
+    overflow: auto;
+    background-color: rgb(247, 52, 188);
+    font-family: Arial;
+    overflow: auto;
+    text-align: center;
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20%;
+    align-items: center;
+    float: left;
+  }
+.footer{
+    background-color: #F14799;
+    text-align: center;
+}
+.container{
+    background-image: url(../images/bg.png);
+}
+.services{
+    text-align: center;
+    color: rgb(247, 52, 188);
+    padding-top: 10px;
+}
+#booking{
+    padding-top: 30px;
+}
+>>>>>>> master

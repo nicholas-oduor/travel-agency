@@ -1,0 +1,141 @@
+.first {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color:#ff1479;
+    background-image: url('./images/pp2.jpg');
+    height: 720px;
+    text-align: center;
+    padding: 180px;
+    font-weight:bold;
+
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+/* Navbar container */
+.navbar {
+    overflow: auto;
+    background-color:#ff1479;
+    font-family: Arial;
+    overflow: auto;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+}
+.logo{
+    padding: 0px;
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+    background-color: red;
+}
+
+
+
+/* About section */
+.second  {
+    text-align: center;
+    float: center;
+    background-color: #ff1479;
+
+}
+.second p{
+color: white;
+font-size: 20px;
+line-height: 27px
+;
+}
+h2,
+h4 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* services section */
+.third {
+    /* background-image: url('./images/pp1.jpg'); */
+    background-color: #ff1479;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    padding: 100px;
+}
+
+/* footer section */
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    color: blue;
+    position: absolute;
+}
+
+
+/* contact form  */
+.contact {
+    background-image: url('./images/pp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.contact>h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#form1,
+#form2,
+#form3 {
+    background-color: transparent;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    color: black;
+    padding: 12px;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#sayhi ::placeholder {
+    color: black;
+}
+
+#sayhi input {
+    color: black;
+    background-color: rgb(252, 248, 248);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        /* background-color:cyan; */
+    }
+}
