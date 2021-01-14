@@ -2,15 +2,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    color:#ff1479;
+    color: #ff1479;
     background-image: url('./images/pp2.jpg');
     height: 720px;
     text-align: center;
     padding: 180px;
-    font-weight:bold;
+    font-weight: bold;
 
 }
-h1{
+
+h1 {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -21,7 +22,7 @@ h1{
 /* Navbar container */
 .navbar {
     overflow: auto;
-    background-color:#ff1479;
+    background-color: #ff1479;
     font-family: Arial;
     overflow: auto;
     text-align: center;
@@ -34,14 +35,16 @@ h1{
 .navbar a {
     float: right;
     font-size: 20px;
-    color:white;
+    color: white;
     text-align: center;
     /* padding: 14px 16px; */
     text-decoration: none;
 }
-.logo{
+
+.logo {
     padding: 0px;
 }
+
 /* Add a red background color to navbar links on hover */
 .navbar a:hover {
     background-color: red;
@@ -50,18 +53,20 @@ h1{
 
 
 /* About section */
-.second  {
+.second {
     text-align: center;
+    color: white;
     float: center;
-    background-color: #ff1479;
+    background-color: orange;
 
 }
-.second p{
-color: white;
-font-size: 20px;
-line-height: 27px
-;
+
+.second p {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
 }
+
 h2,
 h4 {
     font-weight: bold;
@@ -72,7 +77,7 @@ h4 {
 /* services section */
 .third {
     /* background-image: url('./images/pp1.jpg'); */
-    background-color: #ff1479;
+    background-color: white;
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -93,7 +98,7 @@ h4 {
 
 /* contact form  */
 .contact {
-    background-image: url('./images/pp.jpg');
+    background-image: url('./images/pp4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
