@@ -58,7 +58,7 @@ h1 {
     text-align: center;
     color: white;
     float: center;
-    background-color:orange;
+    background-color: orange;
 
 }
 
@@ -78,7 +78,7 @@ h4 {
 /* services section */
 .third {
     /* background-image: url('./images/pp1.jpg'); */
-    background-color:white;
+    background-color: white;
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -94,7 +94,7 @@ h4 {
     padding: 36px;
     color: blue;
     position: absolute;
-    background-color:#ff1479;
+    background-color: #ff1479;
 }
 
 
@@ -141,6 +141,4 @@ textarea {
     background-color: rgb(252, 248, 248);
 }
 
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}

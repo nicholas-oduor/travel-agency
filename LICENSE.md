@@ -1,4 +1,4 @@
-2021 (c) Nicholas oduor  <oduor5742@gmail.com>
+2021 (c) Nibra Travel Agency  <nibra2021@gmail.com>
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
